@@ -1,2 +1,1 @@
-# Developer
-First project
+JavaScript
