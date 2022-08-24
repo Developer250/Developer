@@ -1,0 +1,12 @@
+table {
+  width: 300px;
+
+}
+
+th {
+  text-align: left;
+}
+
+table, th, td {
+  border: 1px solid #ff0000;
+}
