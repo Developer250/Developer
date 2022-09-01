@@ -1,0 +1,19 @@
+table {
+  width: 20%;
+  border: 1px solid;
+}
+table, td, th {
+  border: 1px solid;
+
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+th{
+  background-color: #F38000;
+}
+tr:nth-child(odd){
+  background-color: #27FFA2;
+}

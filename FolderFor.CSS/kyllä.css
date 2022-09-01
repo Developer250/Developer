@@ -1,0 +1,6 @@
+img
+{
+    clear: both; // poista kellunta, voit testata, mitä tapahtuu, jos jätät tämän pois
+    float: left;  // kellu vasemmalle
+
+}

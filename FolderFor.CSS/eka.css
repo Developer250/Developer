@@ -1,0 +1,17 @@
+.liha
+{
+  font-weight: bolder;
+  color: navy;
+}
+body
+{
+  margin: 100px;
+}
+table, th, td
+{
+border: 5px red
+
+}
+th, td {
+ border-color: #96D4D4;
+}
