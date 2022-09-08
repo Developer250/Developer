@@ -1,0 +1,52 @@
+body {
+  background-color: #FFF0AA;
+  margin: auto;
+  width: 50%;
+
+}
+
+label {
+  float: left;
+text-align: left;
+width: 30%;
+}
+
+.laakso {
+  float: right;
+  width: 30%;
+}
+
+input  {
+
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 25px;
+<--!texti kenttien värjäys-->
+}
+
+
+col {
+float: right;
+width: 20px;
+<--!palautelaatikko-->
+}
+
+input radio {
+
+}
+
+input type checkbox {
+float: right;
+}
+
+input submit {
+  float: left;
+  width: 100%;
+
+}
+
+input Tyhjennä {
+  display: inline-block;
+  width:  100%;
+
+}
