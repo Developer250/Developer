@@ -1,0 +1,41 @@
+body {
+  background-color: #FFF0AA;
+  margin: auto;
+  width: 50%;
+
+}
+
+h4 {
+  margin-left:200px ;
+  font-size: 100%;
+
+}
+
+label {
+  float: left;
+text-align: left;
+width: 30%;
+}
+
+.laakso {
+  position: fixed;
+  /*float: left;*/
+  margin-left: 150px;
+  margin-top: -54px;
+  
+
+  /* tyhjennä laatikko siirtyi oikealle margin-leftillä ja ylöspäin sain margin-topilla*/
+}
+
+input  {
+
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 25px;
+/* tasutaväri */
+}
+
+col {
+float: right;
+width: 20px;
+}
