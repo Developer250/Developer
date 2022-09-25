@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  height: 23px;
+  margin: auto;
+  width: 45%;
+}
+
+body{
+  background-color: #80ced6;
+}
+input {
+  margin-bottom: 10px;
+}
+button
+{
+background-color: #ffe6b3;
+}
