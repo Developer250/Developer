@@ -1,7 +1,7 @@
 function yksitoista()
 {
-  var a =  document.getElementById('p1').value;
-  var b =  document.getElementById("p2").value;
+  var a =  parseInt(document.getElementById('p1').value);
+  var b =  parseInt(document.getElementById("p2").value);
   console.log(a + " " + b);
   var paril = 0;
   var parit = 0;
@@ -28,5 +28,5 @@ function yksitoista()
         paril += i;
       }
      }
-      document.write("parilliset numerot niiden summa" + paril + "parittomat numerot  summa" + paril);
+      document.write("parilliset numerot niiden summa " + " " + paril + " parittomat numerot  summa" + " " + paril);
 }
