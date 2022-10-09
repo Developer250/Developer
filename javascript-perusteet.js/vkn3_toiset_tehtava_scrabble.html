@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--Linkitetään css mukaan sekä haetaan javascript-tiedosto-->
+    <link rel="stylesheet" href="vkn3_toiset_tehtava_scrabble.css">
+    <script type="text/javascript" src="vkn3_toiset_tehtava_scrabble.js">
+
+    </script>
+    <title>Scrabble</title>
+  </head>
+  <!--Tehdään web-sivustoon esille taulukko, jotta käyttäjä näkee miten pisteytys menee-->
+    <h1>Scrabble</h1>
+    <ul>
+      <li>A, E, I, N, S, T = 1p</li>
+      <li>O, Ä, K, L = 2p</li>
+      <li>U, M = 3p</li>
+      <li>Y, H, J, P, R, V = 4p</li>
+      <li>Ö, D = 7p</li>
+      <li>B, F, G = 8p</li>
+      <li>C = 10p</li>
+      <li>loput kirjaimet = 12p</li>
+      </ul>
+      <body>
+    <!--Tehdään lomake-->
+      <form class="" action="index.html" method="post">
+        <label for="Scrabble"></label>
+        <input type="text" id="v1" name="" value="">
+        <br><br>
+        <button type="button" onclick="scrabblePeli()" name="button">Laaske kirjainpisteet</button>
+        <div id="r1"></div>
+      </form>
+    </body>
+    </html>

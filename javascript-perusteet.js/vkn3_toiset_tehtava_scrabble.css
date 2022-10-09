@@ -1,0 +1,13 @@
+/*Sivun taustaväri*/
+body {
+  margin: auto;
+  margin-top:100px;
+  width: 200px;
+  background-color: yellow;
+}
+/*Otsikon taustaväri*/
+h1 {
+  margin: auto;
+  width: 55%;
+  color: blue;
+}
