@@ -1,0 +1,28 @@
+.vasen
+{
+  float: left;
+}
+body
+{
+  margin: auto;
+  width: 500px;
+}
+img{
+  margin: 5px 20px -5px 500px;
+  height: 200px;
+}
+aside.yksi{
+color:red;
+}
+.kaksi{
+color: blue;
+}
+
+aside{
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}

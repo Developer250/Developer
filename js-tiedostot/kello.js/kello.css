@@ -1,0 +1,41 @@
+:root {
+  --main-big-color: #1e1f26;
+  --main-text-color: #eccc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background-color: var(--main-big-color);
+  position: relative;
+  transition: all ease 0.2s;
+    )
+
+.Clock {
+  min-height: 18em;
+  min-width: 18em;
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-big-color);
+  background-color: url(https://www.flickr.com/photos/132327323@N04/18752403323);
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 8px solid #03D8FF;
+  transition: all ease 0.25s;
+
+
+
+
+
+
+}

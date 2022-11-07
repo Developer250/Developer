@@ -1,0 +1,31 @@
+#ensimmäinen{
+    font-family: "Sofia", sans-serif;
+
+  }
+h1{
+  color: green;
+}
+h2{
+  font-family: 'Silkscreen', cursive;
+}
+
+td{
+  color: red;
+  font-size: 30px;
+  font-family: 'Major Mono Display', monospace;
+  font-family: 'Silkscreen', cursive;
+
+}
+
+
+#toinen{
+  color: green;
+}
+
+#kolmas,p{
+  font-family: 'Silkscreen', cursive;
+}
+h4{
+  font-family: 'Major Mono Display', monospace;
+
+}

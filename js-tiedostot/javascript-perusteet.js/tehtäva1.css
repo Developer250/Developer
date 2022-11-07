@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+input {
+  margin-bottom: 10px;
+}
+button
+{
+  margin-bottom: 10px;
+}
+
+select
+{
+  margin-bottom: 10px;
+}
+
+.yksi {
+  background-color: #ffa500;
+  width: 45%;
+}
+
+.kaksi {
+  background-color: #ff99cc;
+  width: 45%;
+}
+
+.kolme {
+  background-color: #ffff99;
+  width: 45%;
+}
+.nelja {
+  background-color: #bfff80;
+  width: 45%;
+
+}
+.viisi {
+  background-color: #9999ff;
+  width: 45%;
+}

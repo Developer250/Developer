@@ -1,0 +1,7 @@
+/*Taustaväri sivustolle*/
+body {
+  margin: auto;
+  margin-top: 12%;
+  width: 45%;
+  background-color:#009900;
+}

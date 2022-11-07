@@ -1,0 +1,7 @@
+/*väri vuosiluku tehtävälle*/
+/*Seuraavaksi keskitetään ja tiputetaan alemmaksi sivulla näkyvä lomake*/
+body {
+  margin:auto; width: 45%;
+  margin-top: 15%;
+background-color: #b3ffb3;
+}

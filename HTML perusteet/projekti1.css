@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #6B8D8D;
+  margin: auto;
+  width: 50%;
+}
+
+header {
+  background-color: #FFF08C;
+}
+
+nav {
+  float: right;
+  font-size: 125%;
+}
+
+img {
+  margin-top: 50px;
+  width: 100%;
+
+}
+
+.kuva2 {
+  width: 35%;
+}
+
+h2 {
+  font-family: 'Combo', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Silkscreen', cursive;
+}
+
+h3 {
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: auto;
+
+
+float: right;
+width: -100%;
+}
+
+h4 {
+    font-family: 'Bebas Neue', cursive;
+    float: right;
+    width: 100%;
+}
+
+
+
+
+aside {
+  width: 30%;
+   padding-left: 15px;
+   margin-left: 15px;
+   float: right;
+   font-style: italic;
+   background-color: lightgray;
+}
+
+.teksti {
+  margin:auto;
+  vertical-align: bottom;
+
+}
+
+a {
+  float: right;
+  width: 22%;
+}
+
+hr {
+  display: inline-block;
+  width:  100%;
+
+}
+
+
+footer {
+  margin: auto;
+
+  width: -35px;
+
+}
