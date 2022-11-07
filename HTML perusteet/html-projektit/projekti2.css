@@ -1,0 +1,76 @@
+
+body {
+  margin: auto;
+  align-items: center;
+  background-color: red;
+}
+p {
+
+  box-sizing: border-box 4px;
+    border-style: solid;
+    height: 80px;
+    width: -500px;
+    padding: 4px;
+}
+
+figcaption {
+    text-align: center;
+}
+h1 {
+  text-align:center;
+}
+h2 {
+    text-align:center;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.lapsuus {
+    align-items: center;
+    width: 500px;
+    height: 460px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    border-image: initial;
+    border-radius: 50px 20px;
+    padding: 15px;
+
+}
+p {
+  margin: auto;
+  text-align: center;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Soittotekniikka {
+  align-items: center;
+  width: 500px;
+  height: 160px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+  border-image: initial;
+  border-radius: 50px 20px;
+  padding: 15px;
+}
+.Yksityiselämä {
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+  border-image: initial;
+  border-radius: 50px 20px;
+  padding: 15px;
+}
