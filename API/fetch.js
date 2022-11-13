@@ -19,17 +19,14 @@ function henkilo() {
     } );
   }
 }
-function koira() {
+function kissaTieto() {
   {
-
-    fetch("https://dog.ceo/api/breeds/image/random.jpg")
+    fetch("https://catfact.ninja/fact")
     .then(response => response.json())
     .then(data => {
-      console.log(data.results);
-      let picture = data.results
-      document.getElementById("doge").innerHTML= data.dog + "<br>" + data.dog;
-      document.getElementById("kuva1").src = data.results
-      document.getElementById("kuva1").style = '300px';
+      //console.log (data);
+      document.getElementById("kissa").innerHTML = data.fact;
+      
     } );
   }
 }
