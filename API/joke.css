@@ -5,7 +5,7 @@
     font-family: "Rubik",sans-serif;
 }
 body{
-    background-color: #fab22e;
+    background: #00bd56;
 }
 .wrapper{
     width: 80vmin;
@@ -33,6 +33,7 @@ p{
     margin: 30px 0;
     opacity: 0;
 }
+/* Tekstin näkvyys mustan värin päällä*/
 .fade{
     opacity: 1;
     transition: opacity 1.5s;
