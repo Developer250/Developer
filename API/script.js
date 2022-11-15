@@ -9,6 +9,7 @@ let getJoke = () =>  {
   fetch(url)
   .then(data => data.json())
   .then(item => {
+    //paragraphi.itse teksti sisällytetään itse vitsi
     	jokeContainer.textContent = `${item.joke}`;
       jokeContainer.classList.add("fade");
   });
