@@ -1,6 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
 
 @import 'utilities.css';
 :root{
@@ -37,6 +34,7 @@ header nav .logo{
 margin-right: 3rem;
 }
 body{
+  background-color: black;
 font-family: 'Poppins', sans-serif;
 }
 .container{
@@ -49,7 +47,10 @@ padding-top: 2rem;
 padding-bottom: 3rem;
 }
 .hero .left img{
-width: 300px;
+  width: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero .right {
 color: var(--white);
@@ -109,7 +110,7 @@ border-color: var(--primary);
 color: var(--primary);
 }
 .flex-1{
-flex: 1;
+  flex: 1;
 }
 .btn-secondary{
 background: transparent;
@@ -124,6 +125,7 @@ section{
 padding: 6rem;
 }
 section.about h1{
+color: var(--primary);
 margin-bottom: 1rem;
 font-size: 1.6rem;
 font-weight: 600;
@@ -138,7 +140,7 @@ font-weight: 600;
 }
 section.about p{
 font-family: 'Lato', sans-serif;
-color: var(--secondary);
+color: var(--white);
 line-height: 1.9rem;
 margin-bottom: 2rem;
 }
