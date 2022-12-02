@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @import 'utilities.css';
 :root{
 --primary: rgb(29, 221, 189);
@@ -45,7 +49,7 @@ padding-top: 2rem;
 padding-bottom: 3rem;
 }
 .hero .left img{
-width: 400px;
+width: 300px;
 }
 .hero .right {
 color: var(--white);
