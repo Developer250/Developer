@@ -3,6 +3,6 @@ function portfolio() {
 }
 
 function cv() {
-  location.replace("https://sway.office.com/xIHKtKwLVdqKZZGg?authoringPlay=true&publish")
+  location.replace("https://sway.office.com/sNMM67gpFE2W2K6x")
 
 }
