@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="grocery_webpage.css">
+    <title></title>
+  </head>
+  <body>
+    <header class="header">
+    <a href="#"><img src="images/logo.png"></a>
+
+      <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#Features">Features</a>
+        <a href="#Products">Products</a>
+        <a href="#Categories">Categories</a>
+        <a href="#Review">Review</a>
+        <a href="#Blogs">Blogs</a>
+      </nav>
+
+      <div class="icons">
+        <img src="images/lataus.png" id="menu-btn">
+        <img src="images/search.png" id="search-btn">
+        <img src="images/shoppingcart.png" id="cart-btn">
+        <img src="images/user.png" id="login-btn">
+          </div>
+
+      <form class="search-form" action="index.html">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fa-search"></label>
+      </form>
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="trash"></i>
+          <div class="content">
+            <h3>Watermelon</h3>
+            <img src=images/watermelon.png alt="">
+            <span class="price">4.99e</span>
+            <span class="quantity">quantity : 1</span>  <img src="images/trash.png" alt="">
+          </div>
+          <div class="box">
+            <i class="trash"></i>
+            <div class="content">
+              <h3>Onion</h3>
+              <img src=images/onion.png alt="">
+              <span class="price">4.99e</span>  <span class="quantity">quantity : 1</span>  <img src="images/trash.png" alt="">
+            </div>
+
+            <div class="box">
+              <i class="trash"></i>
+              <div class="content">
+                <h3>Chicken</h3>
+                <img src=images/chicken.png alt="">
+                <span class="price">4.99e</span>
+                <span class="quantity">quantity : 1</span>  <img src="images/trash.png" alt="">
+              </div><br>
+              <div class="total"> Total: 17,45e</div>
+                <a class="btn" href="#">chekcout</a>
+                </div>
+            </div>
+          </div>
+      </div>
+
+      <form class="login-form" action="index.html" method="post">
+        <h3>Login now</h3>
+        <input class="box" type="email" placeholder="enter your email">
+        <input type="password" placeholder="enter your password" class="box">
+        <p>forget your password<a href="#"><br>Click here</a></p>
+        <p>don't have an account<a href="#"><br>Create here</a></p
+        <input type="submit" value="login now" class="btn">
+      </form>
+    </header>
+    <script type="text/javascript" src="grocery_webpage.js">
+
+    </script>
+  </body>
+</html>
