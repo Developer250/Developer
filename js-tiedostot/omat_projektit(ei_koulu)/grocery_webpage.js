@@ -1,3 +1,5 @@
+    //Haku painikkeen toiminto. Myös päällekkäisyyden esto (muihin: tilauskortin, kirjautumisen etc.)
+
 let searchForm = document.querySelector('.search-form');
 
 document.querySelector('#search-btn').onclick = () => {
@@ -7,6 +9,8 @@ document.querySelector('#search-btn').onclick = () => {
   navbar.classList.remove('active');
 }
 
+//tilauskortin painikkeen toiminto. Myös päällekkäisyyden esto (muihin: hakupainikkeen, kirjautumisen etc.)
+
 let shoppingCart = document.querySelector('.shopping-cart');
 
 document.querySelector('#cart-btn').onclick = () => {
@@ -15,6 +19,8 @@ document.querySelector('#cart-btn').onclick = () => {
   loginForm.classList.remove('active');
   navbar.classList.remove('active');
 }
+//Kirjautumisen painikkeen toiminto. Myös päällekkäisyyden esto (muihin: etc.)
+
 
 let loginForm = document.querySelector('.login-form');
 
@@ -24,6 +30,8 @@ document.querySelector('#login-btn').onclick = () => {
   shoppingCart.classList.remove('active');
   navbar.classList.remove('active');
 }
+
+//Naivogoinnin painikkeen toiminto. Myös päällekkäisyyden esto (muihin: etc.)
 
 let navbar = document.querySelector('.navbar');
 
