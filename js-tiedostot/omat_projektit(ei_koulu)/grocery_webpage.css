@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Rubik+Storm&display=swap');
 
-root{
+/*Juuri, josta haetaan eri osioihin värit ja rajat sekä varjotukset*/
+:root{
   --orange:#FF7F50;
   --black: #00008B;
   --light-color: #666;
-  --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
   --border: .1rem solid rgba(0, 0, 0, .1);
   --outline: .1rem solid rgba(0, 0, 0, .1);
-  --outline-hover: 2rem solid black;
+  --outline-hover: .2rem solid var(--black);
 }
 
 *{
@@ -363,4 +364,36 @@ cursor: pointer;
 
 .heading {
   font-size: 2.5rem;
+}
+
+.features .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap:1.5rem;
+}
+.features .box-container .box{
+  padding: 3rem 2rem;
+  background: #fff;
+  outline: var(--outline);
+  outline-offset: -1rem;
+  text-align: center;
+  box-shadow:border;
+}
+.features .box-container .box:hover{
+  outline: var(--outline-hover);
+  outline-offset: 0rem;
+}
+.features .box-container .box img{
+  margin: 1rem 0;
+  height: 15rem;
+}
+.features .box-container .box h3{
+  font-size: 2.5rem;
+  line-height: 1.8;
+  color: black;
+}
+.features .box-container .box p{
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: #0303ad;
 }
