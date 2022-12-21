@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="grocery_webpage.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <title>Grocery Store</title>
   </head>
   <body>
@@ -115,6 +115,7 @@
 
       </div>
     </div>
+    </div>
 
     </section>
     <!--Features  section ends-->
@@ -124,8 +125,9 @@
     <h1 class="heading">Our<span>products</span></h1>
 
     <div class="swiper product-slider">
-      <div class="wrapper">
-        <div class="box">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide box">
           <img src="images/orange.png">
           <h3>fresh orange</h3>
           <div class="price">e4.99/- - 10.99/-</div>
@@ -138,7 +140,9 @@
         </div>
         <a href="#" class="btn">add to cart</a>
         </div>
-        <div class="box">
+
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box">
           <img src="images/onion.png">
           <h3>fresh onion</h3>
           <div class="price">e4.99/- - 10.99/-</div>
@@ -151,7 +155,9 @@
         </div>
         <a href="#" class="btn">add to cart</a>
         </div>
-        <div class="box">
+
+
+            <div class=" swiper-slide box">
           <img src="images/meat.png">
           <h3>fresh meat</h3>
           <div class="price">e4.99/- - 10.99/-</div>
@@ -164,7 +170,8 @@
         </div>
         <a href="#" class="btn">add to cart</a>
         </div>
-        <div class="box">
+
+          <div class=" swiper-slide box">
           <img src="images/salad.png">
           <h3>fresh salad</h3>
           <div class="price">e4.99/- - 10.99/-</div>
@@ -176,10 +183,11 @@
             <i class="fa-stars-half-alt"></i>
         </div>
         <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
         </div>
 
-
-        <div class="box">
+            <div class="swiper-slide box">
           <img src="images/catfood.png">
           <h3>fresh cat food</h3>
           <div class="price">e2.99/- - 10.99/-</div>
@@ -193,9 +201,6 @@
         <a href="#" class="btn">add to cart</a>
         </div>
 
-
-        <div class="swiper product-slider">
-          <div class="swiper-wrapper">
             <div class="swiper-slide box">
               <img src="images/coffee.png">
               <h3>Caramel</h3>
@@ -209,8 +214,63 @@
             </div>
             <a href="#" class="btn">add to cart</a>
             </div>
-  </section>
+            <div class="swiper product-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                  <img src="images/wc-paper.png">
+                  <h3>Caramel</h3>
+                  <div class="price">e2.99/- - 10.99/-</div>
+                  <div class="stars">
+                    <i class="fa-stars"></i>
+                    <i class="fa-stars"></i>
+                    <i class="fa-stars"></i>
+                    <i class="fa-stars"></i>
+                    <i class="fa-stars-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+                  </div>
+                </div>
+              </div>
+          </section>
     <!--products  section ends-->
+
+
+    <!--Categories section starts-->
+      <section class="categories" id="categories">
+        <h1 class="heading"> product <span>categories</span> </h1>
+        <div class="box-container">
+
+          <div class="box">
+            <img src="images/vegitables.png">
+            <h3>vegitables</h3>
+            <p>up to 45% off</p>
+            <a href="#" class="btn">shop now</a>
+          </div>
+
+          <div class="box">
+            <img src="images/fruits.png">
+            <h3>fresh fruits</h3>
+            <p>up to 45% off</p>
+            <a href="#" class="btn">shop now</a>
+          </div>
+
+          <div class="box">
+            <img src="images/dairyProducts.png">
+            <h3>daily products</h3>
+            <p>up to 45% off</p>
+            <a href="#" class="btn">shop now</a>
+          </div>
+
+          <div class="box">
+            <img src="images/meat2.png">
+            <h3>fresh meat</h3>
+            <p>up to 45% off</p>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+      </section>
+
+    <!--Categories  section ends-->
 
     <script type="text/javascript" src="grocery_webpage.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
