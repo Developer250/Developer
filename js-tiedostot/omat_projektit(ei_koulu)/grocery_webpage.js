@@ -47,7 +47,7 @@ window.onscroll = () => {
   loginForm.classList.remove('active');
   navbar.classList.remove('active');
 }
-var swiper = new Swiper(".product-slider", {
+var swiper = new Swiper(".review-slider", {
   spaceBetween:20,
   centeredSlides: true,
   autoplay: {
