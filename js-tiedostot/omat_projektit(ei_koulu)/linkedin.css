@@ -236,7 +236,7 @@ a{
 /*---right-sidebar---*/
 .right-sidebar{
   flex-basis: 25%;
-  align-self:
+  align-self: flex-start;
 }
 .info-icon{
   width: 15px;
@@ -244,6 +244,9 @@ a{
   margin-top: 15px;
 }
 .sidebar-news{
+  width: 20%;
+  margin-top: 20px;
+  float: right;
   background: #fff;
   padding:10px 25px;
 }
@@ -251,6 +254,35 @@ a{
   font-size: 18px;
   font-weight: 600;
   color: #333;
+}
+.sidebar-news a{
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+.sidebar-news span{
+  font-size: 12px;
+}
+.sidebar-news .read-more-link{
+  color: #045be6;
+  font-weight: 500;
+  margin: 20px 0 12px;
+}
+.sidebar-ad{
+  background: #fff;
+  padding: 15px 25px;
+  text-align: center;
+  margin-top: 420px;
+  float: right;
+  font-size: 12px;
+}
+.sidebar-ad img{
+  float: right;
+  width: 60px;
+  border-radius: 50%;
+  margin: 4px;
 }
 /*---main-sidebar---*/
 .main-sidebar{
