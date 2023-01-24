@@ -284,6 +284,29 @@ a{
   border-radius: 50%;
   margin: 4px;
 }
+.sidebar-ad small{
+  float: right;
+  font-weight: 500;
+}
+.sidebar-ad p{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.sidebar-ad b{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+}
+.ad-link{
+  display: inline-block;
+  border: 1px solid #045be6;
+  border-radius: 30px;
+  padding: 5px 15px;
+  color: #045be6;
+  font-weight: 500;
+  margin: 20px auto 10px;
+}
 /*---main-sidebar---*/
 .main-sidebar{
   flex-basis: 47%;
