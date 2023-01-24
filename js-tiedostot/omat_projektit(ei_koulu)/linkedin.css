@@ -236,7 +236,21 @@ a{
 /*---right-sidebar---*/
 .right-sidebar{
   flex-basis: 25%;
-  align-self: flex-start;
+  align-self:
+}
+.info-icon{
+  width: 15px;
+  float: right;
+  margin-top: 15px;
+}
+.sidebar-news{
+  background: #fff;
+  padding:10px 25px;
+}
+.sidebar-news h3{
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
 }
 /*---main-sidebar---*/
 .main-sidebar{
