@@ -235,7 +235,7 @@ a{
 
 /*---right-sidebar---*/
 .right-sidebar{
-  margin-top: -85px;
+  margin-top: -125px;
   flex-basis: 25%;
   align-self: flex-start;
 }
@@ -366,4 +366,30 @@ a{
   resize: none;
   background: transparent;
   margin-top: 8px;
+}
+::placeholder{
+  font-weight: 500;
+}
+
+.create-post-links{
+  display: flex;
+  align-items: flex-start;
+}
+
+.create-post-links li{
+  list-style: none;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  flex-basis: 25%;
+  height: 40px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.create-post-links img{
+  width: 28px;
+  background: #11D0DE;
 }
