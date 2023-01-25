@@ -307,6 +307,27 @@ a{
   font-weight: 500;
   margin: 20px auto 10px;
 }
+
+.sidebar-useful-links{
+  padding: 15px 25px;
+  text-align: center;
+}
+
+.sidebar-useful-links a{
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+}
+
+.copyright-msg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
 /*---main-sidebar---*/
 .main-sidebar{
   flex-basis: 47%;
