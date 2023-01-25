@@ -124,6 +124,7 @@ a{
 }
 
 .sidebar-profile-box{
+  width: 47%;
   background: #fff;
 }
 
@@ -193,6 +194,7 @@ a{
 }
 
 .sidebar-activity{
+  width: 47%;
   background: #fff;
   padding: 5px 25px;
   margin: 12px 0px;
@@ -386,10 +388,29 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-
+  cursor: pointer;
 }
 
 .create-post-links img{
   width: 28px;
   background: #11D0DE;
+  margin-right: 5px;
+}
+.create-post-links li:last-child {
+  background: #045be6;
+  color: #fff;
+  border-top: 0;
+  border-right: 0;
+}
+.sort-by{
+  display: flex;
+  align-items: center;
+  margin: 13px 100px;
+}
+.sort-by hr{
+  margin: 12px 0px;
+  flex: 0.69;
+  border: 0;
+  height: 1px;
+  background: #ccc;
 }
