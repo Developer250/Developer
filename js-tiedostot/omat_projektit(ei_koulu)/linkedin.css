@@ -23,22 +23,26 @@ a {
   display: block;
 }
 
-.navbar ul li{
+.navbar-center ul li {
     display: inline-block;
     list-style: none;
 }
-.navbar ul li a{
+
+.navbar-center ul li a{
+  display: flex;
   align-items: center;
-  font-size: 14px;
-  margin: 15px 14px;
+  font-size: 13px;
+  margin: 5px 8px;
   padding-right: 5px;
+  position: relative;
 }
-.navbar ul li a img{
+
+.navbar-center ul li a img{
   width: 30px;
 }
 .navbar-center ul li a::after{
-  content: "";
-  width: 0;
+  content: '';
+  width: 0%;
   height: 2px;
   background: #045be6;
   position: absolute;
