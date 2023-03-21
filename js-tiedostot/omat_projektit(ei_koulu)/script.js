@@ -1,39 +1,50 @@
-const quizContainer = document.querySelector('.quiz-container');
-const questionElement = document.querySelector('#question');
-const optionButtons = document.querySelector('#option-buttons');
-const startButton = document.querySelector('#start-btn');
-const submitButton = document.querySelector('#submit-btn');
-const resultContainer = document.querySelector('#result-container');
-const resultElement = document.querySelector('#result');
-const scoreElement = document.querySelector('#score');
-const restartButton = document.querySelector('#restart-btn');
+const mazeContainer = document.getElementById("maze-container");
+const player = document.createElement("div");
+player.className = "player";
+player.style.left = "0";
+player.style.top = "0";
+mazeContainer.appendChild(player);
 
-let currentQuestionIndex = 0;
-let score = 0;
-
-// Quiz questions
-const questions = [
-	{
-		question: 'What is the capital of France?',
-		options: ['Paris', 'Madrid', 'Rome', 'Berlin'],
-		answer: 'Paris'
-	},
-	{
-		question: 'What is the highest mountain in the world?',
-		options: ['Mount Everest', 'K2', 'Makalu', 'Lhotse'],
-		answer: 'Mount Everest'
-	},
-	{
-		question: 'What is the currency of Japan?',
-		options: ['Yen', 'Dollar', 'Euro', 'Pound'],
-		answer: 'Yen'
-	},
-	{
-		question: 'What is the largest country in the world by land area?',
-		options: ['Russia', 'Canada', 'China', 'USA'],
-		answer: 'Russia'
-	}
+// define maze walls
+const maze = [
+  "##########",
+  "#        #",
+  "# ###### #",
+  "# #    # #",
+  "# # ## # #",
+  "# #    # #",
+  "# ###### #",
+  "#        #",
+  "##########",
 ];
 
-// Start quiz
-start
+for (let i = 0; i < maze.length; i++) {
+  const row = maze[i];
+  for (let j = 0; j < row.length; j++) {
+    if (row.charAt(j) === "#") {
+      const wall = document.createElement("div");
+      wall.className = "wall";
+      wall.style.left = j * 50 + "px";
+      wall.style.top = i * 50 + "px";
+      mazeContainer.appendChild(wall);
+    }
+  }
+}
+
+// move player with arrow keys
+document.addEventListener("keydown", (event) => {
+  switch (event.key) {
+    case "ArrowUp":
+      player.style.top = parseInt(player.style.top) - 50 + "px";
+      break;
+    case "ArrowDown":
+      player.style.top = parseInt(player.style.top) + 50 + "px";
+      break;
+    case "ArrowLeft":
+      player.style.left = parseInt(player.style.left) - 50 + "px";
+      break;
+    case "ArrowRight":
+      player.style.left = parseInt(player.style.left) + 50 + "px";
+      break;
+  }
+});
